@@ -6,14 +6,14 @@ This repository contains a series of statistical analysis projects implemented i
 
 ## Table of Contents
 
-| Lab # | Project | Topics Covered |
-|-------|---------|----------------|
-| **Project 1** | [Comparing Frequencies](#project-1-comparing-frequencies) | Chi-square tests, goodness-of-fit, contingency tables |
-| **Project 2** | [Comparing Means](#project-2-comparing-means) | t-tests, independent & paired samples |
-| **Project 3** | [Simple ANOVA](#project-3-simple-anova) | One-way ANOVA, post-hoc tests |
-| **Project 4** | [Regression Line](#project-4-regression-line) | Simple linear regression, model diagnostics |
-| **Project 5** | [Factorial ANOVA](#project-5-factorial-anova) | Two-way ANOVA, interaction effects |
-| **Project 6** | [Hierarchical and Mixed Factorial ANOVA](#project-6-hierarchical-and-mixed-factorial-anova) | Nested designs, within/between subject factors |
+| Lab # | Project | File | Format | Topics Covered |
+|-------|---------|------|--------|----------------|
+| **Project 1** | [Comparing Frequencies](#project-1-comparing-frequencies) | [ExpDes_Pract_1.pdf](./ExpDes_Pract_1.pdf) | 📄 PDF | Chi-square tests, goodness-of-fit, contingency tables |
+| **Project 2** | [Comparing Means](#project-2-comparing-means) | [ExpDes_Pract_2.html](./ExpDes_Pract_2.html) | 🌐 HTML | t-tests, independent & paired samples |
+| **Project 3** | [Simple ANOVA](#project-3-simple-anova) | [ExpDes_Pract_3.docx](./ExpDes_Pract_3.docx) | 📝 DOCX | One-way ANOVA, post-hoc tests |
+| **Project 4** | [Regression Line](#project-4-regression-line) | [ExpDes_Pract_4.docx](./ExpDes_Pract_4.docx) | 📝 DOCX | Simple linear regression, model diagnostics |
+| **Project 5** | [Factorial ANOVA](#project-5-factorial-anova) | [ExpDes_Pract_5.docx](./ExpDes_Pract_5.docx) | 📝 DOCX | Two-way ANOVA, interaction effects |
+| **Project 6** | [Hierarchical and Mixed Factorial ANOVA](#project-6-hierarchical-and-mixed-factorial-anova) | [ExpDes_Pract_6.docx](./ExpDes_Pract_6.docx) | 📝 DOCX | Nested designs, within/between subject factors |
 
 ---
 
@@ -103,7 +103,7 @@ library(effectsize)  # Effect size calculations
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Locaccio/your-repo-name.git
    ```
 2. Open the `.Rproj` file in RStudio.
 3. Navigate to the desired project folder and open the corresponding `.R` or `.Rmd` file.
@@ -114,24 +114,12 @@ library(effectsize)  # Effect size calculations
 ## Repository Structure
 
 ```
-├── Project1_ComparingFrequencies/
-│   ├── project1.R
-│   └── data/
-├── Project2_ComparingMeans/
-│   ├── project2.R
-│   └── data/
-├── Project3_SimpleANOVA/
-│   ├── project3.R
-│   └── data/
-├── Project4_RegressionLine/
-│   ├── project4.R
-│   └── data/
-├── Project5_FactorialANOVA/
-│   ├── project5.R
-│   └── data/
-├── Project6_HierarchicalMixedANOVA/
-│   ├── project6.R
-│   └── data/
+├── ExpDes_Pract_1.pdf          # Project 1 – Comparing Frequencies
+├── ExpDes_Pract_2.html         # Project 2 – Comparing Means
+├── ExpDes_Pract_3.docx         # Project 3 – Simple ANOVA
+├── ExpDes_Pract_4.docx         # Project 4 – Regression Line
+├── ExpDes_Pract_5.docx         # Project 5 – Factorial ANOVA
+├── ExpDes_Pract_6.docx         # Project 6 – Hierarchical and Mixed Factorial ANOVA
 └── README.md
 ```
 
